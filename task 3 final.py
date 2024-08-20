@@ -19,7 +19,7 @@ def normalize_data(data, mean, std):
     return (data - mean) / std
 
 # Reading training data
-training_data_path = 'C:/Users/andry/Desktop/492/midterm/train/training-data.csv'
+training_data_path = 'C:/Users/andry/Desktop/gausian/train/training-data.csv'
 train_data = pd.read_csv(training_data_path)
 features_to_use = train_data.columns.drop('time')
 
@@ -50,14 +50,14 @@ false_positives = []
 false_negatives = []
 
 # Read validation key
-valid_key_path = 'C:/Users/andry/Desktop/492/midterm/validation/valid-key.txt'
+valid_key_path = 'C:/Users/andry/Desktop/gausian/validation/valid-key.txt'
 valid_key = {}
 with open(valid_key_path, 'r') as f:
     for line in f:
         file_name, label = line.strip().split(' ')
         valid_key[file_name] = int(label)
 
-validation_folder_path = 'C:/Users/andry/Desktop/492/midterm/validation/'
+validation_folder_path = 'C:/Users/andry/Desktop/gausian/validation/'
 for file_name, actual_label in valid_key.items():
     # Load validation data
     validation_data_path = os.path.join(validation_folder_path, f"{file_name}.csv")
@@ -106,7 +106,7 @@ print(f"False Negatives: {false_negatives}")
 
 # Testing phase on unseen data
 test_file_names = [f"{i}.csv" for i in range(58)]
-test_folder_path = 'C:/Users/andry/Desktop/492/midterm/test'
+test_folder_path = 'C:/Users/andry/Desktop/gausian/test'
 
 test_results = []
 
