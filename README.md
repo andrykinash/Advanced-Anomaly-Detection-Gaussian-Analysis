@@ -72,3 +72,14 @@ This project focuses on detecting anomalies in a chemical process based on data 
 - **Multivariate Gaussian Analysis** the performance suggests that Multivariate Gaussian Analysis may not be the optimal method for this particular dataset, possibly due to the inherent characteristics of the data that could influence the model's ability to accurately distinguish between normal and abnormal behavior.
 
 ### Visualization of the data
+![all features file 1 v file 2 batch 1](https://github.com/user-attachments/assets/d47c25f3-7234-4f1c-884c-785d04fb6bce)
+![all features file 1 v file 2 batch 2](https://github.com/user-attachments/assets/19413592-0749-48e2-92a8-f26738198e0d)
+![all features file 1 v file 2 batch 3](https://github.com/user-attachments/assets/d5ac1751-4107-4015-b1f3-dd6f301522f5)
+![all features file 1 v file 2 batch 4](https://github.com/user-attachments/assets/55df2d64-3e72-4f46-86cd-7b499d55e8c5)
+![all features file 1 v file 2 batch 5](https://github.com/user-attachments/assets/3a95b161-2680-458d-9c15-5d28a287ff9e)
+![all features file 1 v file 2 batch 6](https://github.com/user-attachments/assets/704a3eda-f0ef-4fd5-a63e-3afe7cb4004e)
+![all features file 1 v file 2 batch 7](https://github.com/user-attachments/assets/6e925eff-dade-4d6e-9dae-9435693e98a1)
+![cmp_c_s and cmp_c_d in file 1 vs training data](https://github.com/user-attachments/assets/f570952b-7b9f-4b9b-93ee-def889f3d78c)
+![file 1 vs file 2](https://github.com/user-attachments/assets/01a9a2af-7440-4979-a0da-7ff91a942290)
+![important feature comparison](https://github.com/user-attachments/assets/caf81cf3-8cd9-4392-9f66-cf353fd6931a)
+![sensor vs desired](https://github.com/user-attachments/assets/5d048a25-bd01-47fc-b846-7c869991037b)
