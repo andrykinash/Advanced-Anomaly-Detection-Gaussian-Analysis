@@ -39,7 +39,7 @@ test_file_names = [f"{i}.csv" for i in range(58)]
 test_folder_path = 'C:/Users/andry/Desktop/492/midterm/test'
 
 # Load the training data
-training_data_path = 'C:/Users/andry/Desktop/492/midterm/train/training-data.csv'
+training_data_path = 'C:/Users/andry/Desktop/gausian/train/training-data.csv'
 train_data = pd.read_csv(training_data_path)
 features_to_use = train_data.columns.drop('time')
 columns_to_exclude = ['cmp_b_s', 'f2_s'] #excluded for testing 
@@ -55,7 +55,7 @@ pdf_train_values = calculate_pdf(normalized_train_df, mean, std)
 thresholds = calculate_percentile_threshold(pdf_train_values)
 
 # Read validation key
-valid_key_path = 'C:/Users/andry/Desktop/492/midterm/validation/valid-key.txt'
+valid_key_path = 'C:/Users/andry/Desktop/gausian/validation/valid-key.txt'
 valid_key = {}
 with open(valid_key_path, 'r') as f:
     for line in f:
@@ -70,7 +70,7 @@ FN = 0  # False Negative
 false_positives = []
 false_negatives = []
 
-validation_folder_path = 'C:/Users/andry/Desktop/492/midterm/validation/'
+validation_folder_path = 'C:/Users/andry/Desktop/gausian/validation/'
 for file_name, actual_label in valid_key.items():
     # Load validation data
     validation_data_path = os.path.join(validation_folder_path, f"{file_name}.csv")
