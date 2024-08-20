@@ -71,3 +71,4 @@ This project focuses on detecting anomalies in a chemical process based on data 
 - **Independent Gaussian Analysis** showed excellent performance with a perfect F1 score on the validation set, though there is a concern about overfitting.
 - **Multivariate Gaussian Analysis** the performance suggests that Multivariate Gaussian Analysis may not be the optimal method for this particular dataset, possibly due to the inherent characteristics of the data that could influence the model's ability to accurately distinguish between normal and abnormal behavior.
 
+### Visualization of the data
