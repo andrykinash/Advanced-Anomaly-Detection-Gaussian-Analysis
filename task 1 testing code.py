@@ -29,7 +29,7 @@ def plot_important_features(validation_folder_path, file_names, features_to_plot
     plt.tight_layout(rect=[0, 0.03, 1, 0.95])
     plt.show()
 
-validation_folder_path = 'C:/Users/andry/Desktop/492/midterm/validation/'
+validation_folder_path = 'C:/Users/andry/Desktop/gausian/validation/'
 file_names = ['1', '2']  #ive edited this for all the different comparisons
 features_to_plot = ['prd_s', 'lq_s', 'prd_c', 'prd_a']  #ive edited this for all the different comparisons
 
